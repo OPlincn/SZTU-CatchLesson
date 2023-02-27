@@ -22,7 +22,7 @@ Schedule
 
 ### 还需要在脚本py文件的同目录下，创建名为chromedriver文件夹，
 
-### 并将与你本地Chrome浏览器版本相应的Chromedriver软件下载
+### 并将与你本地Chrome浏览器版本相应的Chromedriver软件下载到里面
 
 文件夹名 **必须** 为 chromedriver
 
