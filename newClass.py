@@ -60,7 +60,8 @@ class CatchProcession:
             for teacher in self.teachers_names:
                 lesson_select_index = self.teachers_names.index(teacher)  # 确定此时循环中的老师的选课 777
                 what_time_is = time.ctime()
-                print(f"\n时间: {what_time_is}\n开始检索{teacher}老师的课还缺不缺人!\n")
+                print('\n----------------------------------------')
+                print(f"时间: {what_time_is}\n开始检索{teacher}老师的课还缺不缺人!\n")
                 input_teacher = self.driver.find_element('xpath', '//*[@id="skls"]')  # 键入名字
                 input_teacher.clear()
                 input_teacher.send_keys(teacher)
@@ -171,8 +172,9 @@ class CatchProcession:
                         print(f"抢到了{teacher}老师的第三场课!")
                         if try_times != 9: no_lesson = False
                         break
-
-                if no_lesson: print(f"oh no!{teacher}老师的课现在还没有多出来的名额！")
+                if no_lesson:
+                    print(f"oh no!{teacher}老师的课现在还没有多出来的名额！")
+                    print('----------------------------------------')
 
     def auto_doit(self):
         self.login_to_system()

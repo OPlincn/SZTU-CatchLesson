@@ -22,11 +22,12 @@ Schedule
 
 ### 还需要在脚本py文件的同目录下，创建名为chromedriver文件夹，
 
-### 并将与你本地Chrome浏览器版本相应的Chromedriver软件下载
+### 并将与你本地Chrome浏览器版本相应的Chromedriver软件下载到里面
 
 文件夹名 **必须** 为 chromedriver
 
-![Screen Shot 2023-02-27 at 12.50.43 PM](/Users/oplin/Documents/project_in_giithub/SZTU-CatchLesson/Screen Shot 2023-02-27 at 12.50.43 PM.png)
+<img width="706" alt="Screen Shot 2023-02-27 at 12 50 43 PM" src="https://user-images.githubusercontent.com/49088507/221478988-979caa5c-eeda-48ef-83a3-1a72297275c5.png">
+
 
 可以通过以下两个网站下载到需要的chromedriver
 
@@ -37,10 +38,12 @@ http://npm.taobao.org/mirrors/chromedriver/
 
 在本地Chrome的设置中即可看到自己的Chrome版本
 
-![Screen Shot 2023-02-27 at 12.53.48 PM](/Users/oplin/Documents/project_in_giithub/SZTU-CatchLesson/Screen Shot 2023-02-27 at 12.53.48 PM.png)
+<img width="703" alt="Screen Shot 2023-02-27 at 12 53 48 PM" src="https://user-images.githubusercontent.com/49088507/221479012-8de12655-fa2d-466b-8b48-b24a0c41e084.png">
+
 
 最后将压缩包下载到chromedriver文件夹中解压，并将exe文件命名为chromedriver.exe
 
-![Screen Shot 2023-02-27 at 12.54.50 PM](/Users/oplin/Documents/project_in_giithub/SZTU-CatchLesson/Screen Shot 2023-02-27 at 12.54.50 PM.png)
+<img width="721" alt="Screen Shot 2023-02-27 at 12 54 50 PM" src="https://user-images.githubusercontent.com/49088507/221479038-9317741b-e295-4424-a5a6-05431b940fb7.png">
+
 
 ## 到此，环境配置全部完成！
